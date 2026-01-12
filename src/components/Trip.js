@@ -1,4 +1,8 @@
 import "./TripStyles.css";
+import fiveImg from "../assets/five.jpg";
+import eightImg from "../assets/eight.jpg";
+import sixImg from "../assets/six.jpg";
+
 function Trip() {
   return (
     <div className="trip">
@@ -8,49 +12,31 @@ function Trip() {
       <div className="tripcard">
         <div className="t-card">
           <div className="t-image">
-            <img src="assets/five.jpg" alt="image" />
+            <img src={fiveImg} alt="Indonesia trip" />
           </div>
-
           <div>
             <h2>Trip in Indonesia</h2>
-            <p>
-              Indonesia, officially the Republic of Indonesia, is a country in
-              Southeast Asia and Oceania between the Indian and Pacific oceans.
-              It consists of over 17,000 islands, including Sumatra, Java,
-              Sulawesi, and parts of Borneo and New Guinea.
-            </p>
+            <p>Indonesia, officially the Republic of Indonesia...</p>
           </div>
         </div>
 
         <div className="t-card">
           <div className="t-image">
-            <img src="assets/eight.jpg" alt="image" />
+            <img src={eightImg} alt="Malaysia trip" />
           </div>
-
           <div>
             <h2>Trip in Malaysia</h2>
-            <p>
-              Malaysia is a Southeast Asian country occupying parts of the Malay
-              Peninsula and the island of Borneo offer stunning natural beauty.
-              It's known for its beaches, rainforests and mix of Malay, Chinese,
-              Indian and European cultural influences.
-            </p>
+            <p>Malaysia is a Southeast Asian country...</p>
           </div>
         </div>
 
         <div className="t-card">
           <div className="t-image">
-            <img src="assets/six.jpg" alt="image" />
+            <img src={sixImg} alt="France trip" />
           </div>
-
           <div>
             <h2>Trip in France</h2>
-            <p>
-              France, in Western Europe, is home to medieval cities, charming
-              alpine villages, and scenic Mediterranean beaches. Its capital,
-              Paris, boasts world-renowned art museums like the Louvre and
-              iconic landmarks such as the Eiffel Tower.
-            </p>
+            <p>France, in Western Europe, is home to medieval cities...</p>
           </div>
         </div>
       </div>
