@@ -7,14 +7,6 @@ function SignUp() {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
 
-  // Apply background only on SignUp page
-  useEffect(() => {
-    document.body.classList.add("signup-page-bg");
-    return () => {
-      document.body.classList.remove("signup-page-bg");
-    };
-  }, []);
-
   const handleCancel = () => {
     navigate("/");
   };
