@@ -1,5 +1,9 @@
 /*import { Component } from "react";
 import "./DestinationStyles.css";
+import first from "../assets/first.jpg";
+import two from "../assets/two.jpg";
+
+
 
 class DestinationData extends Component {
   render() {
@@ -19,8 +23,8 @@ class DestinationData extends Component {
           </p>
 
           <div className="image">
-            <img src="/assets/first.jpg" alt="image" />
-            <img src="/assets/two.jpg" alt="image" />
+            <img src={first} alt="image" />
+<img src={two} alt="image" />
           </div>
         </div>
 
